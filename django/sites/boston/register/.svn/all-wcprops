@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/607/trunk/django/sites/boston/register
+END
+registerGroup.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/607/trunk/django/sites/boston/register/registerGroup.html
+END
+baseregform.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/505/trunk/django/sites/boston/register/baseregform.html
+END
+payment.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/605/trunk/django/sites/boston/register/payment.html
+END
+registerIndiv.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/602/trunk/django/sites/boston/register/registerIndiv.html
+END

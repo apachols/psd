@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>PSD: Faq</title>
+<style type="text/css">
+<!--
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 75em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColElsCtrHdr #header {
+	background: #DDDDDD;
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	background-color: #F8F8F8;
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	font-size: xx-large;
+}
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
+}
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#DDDDDD;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+-->
+</style>
+<link href="menu3/styles.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style5 {font-size: 18px}
+a:link {
+	color: #CC0000;
+}
+a:visited {
+	color: #660000;
+}
+a:hover {
+	color: #FF0000;
+}
+.style6 {color: #333333}
+body,td,th {
+	font-size: 12px;
+}
+-->
+</style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16935149-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+
+    <div align="left">
+      <!-- end #header -->
+      <img src="psd_title.png" alt="Poly Speed Dating" width="820" height="135" /></div>
+  </div>
+  <div id="tabs">
+  <ul>
+    <li><a href="index.html"><span>Home</span></a></li>
+    <li><a href="whoweare.html"><span>Who we Are</span></a></li>
+    <li><a href="faq.html"><span>FAQ</span></a></li>
+    <li><a href="Register.html"><span>Register<br /></span></a></li>
+    <li><a href="pastevents.html"><span>Past Events!</span></a></li>
+    <li><a href="mailto:info@polyspeeddating.com"><span>Contact</span></a></li>
+     <li><a href="/reg/accounts/login/"><span>Log-In</span></a></li>
+    <li><a href="http://polyspeeddating.com/mailman/listinfo/psd"><span>Join our Mailing List</span></a></li>
+  </ul>
+</div>
+  <div id="mainContent">
+    <p>&nbsp;</p>
+    <h1>F<span class="style5">requently</span> A<span class="style5">sked</span> Q<span class="style5">uestions</span></h1>
+    <p>Contents</p>
+    <ul>
+      <li><strong><a href="#Whatis">What is Speed Dating? </a></strong></li>
+      <li><a href="#evening">What will the evening look like? </a></li>
+      <li><a href="#sexualpref">How will this speed dating evening deal with varying sexual preferences?</a></li>
+      <li><a href="#bimatching">I am interested in dating both men and women. Will I get dates with both men and women?</a></li>
+      <li><a href="#straightman">How will I fare as a straight man?</a></li>
+      <li><a href="#gender">What is your definition of gender? </a></li>
+      <li><a href="#indivgroup">My partner(s) and I want to date both as individuals and as a group. Can we?</a></li>
+      <li><a href="#groups">How will PSD deal with polyamorous couples or groups (triads, quads, etc) looking to "co-date"?</a></li>
+      <li><a href="#ages">What ages do you expect?</a></li>
+      <li><a href="#datenumber">How many dates will I have?</a></li>
+      <li><a href="#cruise">I meet someone I like who I didn’t get a date with?</a></li>
+      <li><a href="#noonepicksme">What if no one picks me? </a></li>
+      <li><a href="#cancel">Cancelation?</a></li>
+      <li><a href="#mobility">Mobility issues? </a></li>
+      <li><a href="#howtohelp">How can I help? </a></li>
+      <li><a href="#resources">Resources</a><br />
+      </li>
+    </ul>
+    <h2> <strong><a name="Whatis" id="Whatis"></a>What is Speed Dating? </strong> </h2>
+    <blockquote>
+      <p>Speed Dating is a social event where people meet a number of potential dating partners.  During the evening you will rotate though several “dates” of about 5 minutes each.  After each date you check off whether or not you are interested in romantically pursuing that person any further.  Your choices are collected at the end of the night and if you and your date both were interested, your information will be exchanged via email within the next few days.</p>
+    </blockquote>
+    <h2> <strong><a name="evening" id="evening"></a>What will the evening look like? </strong> </h2>
+    <blockquote>
+      <p>When you arrive you will go to the check-in table and tell us your first name.  We will give you a name tag with your “public name” (i.e.: Jen, Mike, Kitten, Dragon Breath. etc) and your ID number.  After you check in there will be some social time and some announcements, because it takes a while for everyone to check in and for the date sheets to print.  We will then hand out date sheets that tell you what table you will go to and whom you will be meeting there.  Each round lasts 5-7 minutes.  We will announce when each round ends.  There will be a break part way through the evening so you can catch your breath.  After all the dating rounds are complete you will need turn in your sheet so we can see whom you checked off as interesting, and then email your matches to you.</p>
+    </blockquote>
+    <h2> <strong><a name="sexualpref" id="sexualpref"></a>How will this speed dating evening deal with varying sexual preferences?</strong></h2>
+    <blockquote>
+      <p>Everyone will check off what genders they are interested in, and also check off their own gender(s).  The speed dating computer program will create a sequence of dates that matches each person with their preferences as best we can.</p>
+    </blockquote>
+    <h2> <strong><a name="bimatching" id="bimatching"></a>I am interested in dating both men and women.  <br />
+    Will I get dates with both men and women?</strong></h2>
+    <blockquote>
+      <p>	Yes, rounds are divided by the computer so that certain rounds prioritize same-gender matches and others prioritize other-gender matches.&nbsp; This ensures that bisexuals get close to an equal mix of the genders they are looking for.  This also means that a straight man may not get dates for every round, as a lot of the women who attend PSD are bisexual and for half of the rounds they will be busy dating each other.  Though we often have equal numbers in terms of gender, there are usually more people looking for dates with women than men.</p>
+    </blockquote>
+    <h2> <strong><a name="straightman" id="straightman"></a>How will I fare as a straight man?</strong></h2>
+    <blockquote>
+      <p>You will be fine.  We close registration to oversubscribed demographics to make sure that those who come to PSD have a good time.  Understand that while women are interested in you, a lot of the women who come to PSD are interested in each other as well.  This means we have the &quot;Bisexual Alternation&quot; system (see previous FAQ question).  In a nutshell, you might not date on every round.  We do this to ensure everyone is getting a mix of folks they are interested in.</p>
+    </blockquote>
+    <h2><strong><a name="gender" id="gender"></a>What is your definition of gender? </strong> </h2>
+    <blockquote>
+      <p>While we recognize that the issues surrounding dating and gender identity are complex, we are limited by what our programmers can work out.  Thus we have five gender check boxes: man, trans man, woman, trans woman, and genderqueer.  We understand that this may leave some people out.  We would appreciate your suggestions as to how to make this aspect of PSD better for everyone.</p>
+    </blockquote>
+    <h2> <strong><a name="indivgroup" id="indivgroup"></a>My partner(s) and I want to date both as individuals and as a group. Can we?</strong></h2>
+    <blockquote>
+      <p>Unfortunately, not yet. </p>
+    </blockquote>
+    <h2> <strong><a name="groups" id="groups"></a>How will PSD deal with polyamorous couples or groups (triads, quads, etc) looking to &quot;co-date&quot;?</strong></h2>
+    <blockquote>
+      <p>A group of folks (two or more people) can come looking to date other groups and individuals.  Your group and personal preferences are taken into account when the computer sets up the dates.  We do not allow groups to only date other groups, because we usually do not have enough clusters for you to only have dates with other clusters. </p>
+    </blockquote>
+    <h2> <strong><a name="ages" id="ages"></a>What ages do you expect?</strong></h2>
+    <blockquote>
+      <p>It varies, but previous events have had ages ranging from late teens to late 60s.</p>
+    </blockquote>
+    <h2> <strong><a name="datenumber" id="datenumber"></a>How many dates will I have?</strong></h2>
+    <blockquote>
+      <p> The number of dates ranges from 4 to 14; it will simply depend on who comes to PSD and how many people (or groups) you can be paired with.  If it looks like you will have less than 3 dates we will let you know before the event and offer you a refund.  Remember that the more flexible you are the more people you will match with. </p>
+    </blockquote>
+    <h2><strong><a name="cruise" id="cruise"></a>What if I meet someone I like who I didn’t get a date with?</strong></h2>
+    <blockquote>
+      <p>There is lots of social time at the PSD events and chances are you will get to meet some really cool people.  If you meet someone that you like but didn’t get a date with them there is hope!  At the bottom of your date sheet there is a “cruising” section.  If you write their ID number down we will send them your name and email address.  They don’t have to write down yours, and there is no match required.  We encourage you to cruise people this way since it removes the awkward social aspects of in-person come-ons.  Be shy, and use our system!</p>
+    </blockquote>
+    <h2> <strong><a name="noonepicksme" id="noonepicksme"></a>What if no one picks me? </strong> </h2>
+    <blockquote>
+      <p>After each round you will mark “yes” on your date sheet if you liked your date and want to share your information with them. If you and your date both check yes, we will exchange your info via email. However, sometimes your special someone or someones just did not show up to PSD this time. You can always try again!  We get tons of new people at each event.</p>
+    </blockquote>
+    <h2> <strong><a name="cancel" id="cancel"></a>What if I cancel?</strong></h2>
+    <blockquote>
+      <p>If you cancel at least one day (24 hours) before the event then we will refund half your registration fee. Alternatively, you can elect to use the full amount for future PSD events. If you cancel with less than one day's notice, or are a no-show, then you forfeit your entire fee.</p>
+    </blockquote>
+    <h2> <strong><a name="mobility" id="mobility"></a>What if I have mobility issues? </strong> </h2>
+    <blockquote>
+      <p>We understand that not everyone can make the crazy dash between tables after each round.  As long as you let us know before the event starts we can make sure you change tables as few times as possible. We want you to have a good time at our events, so let us know if there is anything we can do to make your night better.</p>
+    </blockquote>
+    <h2><strong><a name="howtohelp" id="howtohelp"></a>How can I help the cause? </strong> </h2>
+    <blockquote>
+      <p>The most important thing is helping us cast the net wide. Bring in friends that you have kept secret until now. We love to meet new people and our daters do too!</p>
+    </blockquote>
+    <h2> <strong><a name="resources" id="resources"></a>Are there other poly/non-monogamy resources?</strong></h2>
+    <blockquote>
+      <p>Why yes. Check here for a few immediate places to get started.<br />
+        <br />
+        •<a href="http://www.xeromag.com/fvpoly.html">Polyamory 101</a> Franklin's Poly Pages.  This website is generally considered to be the best Polyamory 101 guide on the internet, especially for people who are entirely new to the concept.<br />
+        <br />•<a href="http://freaksexual.wordpress.com/2008/03/22/practical-nonmonogamy-tips-ii/">Pepper's Practical Nonmonogamy Guide.</a>  This covers the ins and outs of getting into nonmonogamy, with a focus on negotiating boundaries, and is written in an easy-to-digest tip format.<br />
+        <br />•<a href="http://freaksexual.wordpress.com/2009/11/05/nonmonogamy-for-men-the-big-picture/">Pepper's Guide to Nonmonogamy for Men.</a>  This essay talks about the frustrations people encounter while trying to date in a nonmonogamous manner, and how to actually get a date.  While it is written for men attracted to women, much of the advice applies to women and queer folk.<br />
+        <br />
+        •<a href="http://lists.polyamory.org/listinfo.cgi/sfbay-poly-polyamory.org">Sfbay-Poly Email List.</a>  This is the largest polyamory email list in the Bay Area, and most events in the area are posted to it.<br />
+        <br />
+        •<a href="http://www.pepperminty.com/sfbay-poly-calendar.html">Bay Area Poly Events Calendar</a>.  This is an up-to-date calendar of all known public polyamory/nonmonogamy events in the Bay Area.  Use the button to add it to your pre-existing Google Calendar account.<br />
+      </p>
+      <p>•<a href="http://fetlife.com/groups/107">Fetlife Poly &amp; Kinky Forum</a>.  This is probably the best advice forum online for people who are both nonmonogamous and into BDSM.<br />
+      </p>
+      <p>•<a href="http://www.okcupid.com/">OkCupid</a>.  Nonmonogamous people have a lot of luck on this dating website, which is not poly-specific but does have a very good matching system which will highlight local people with matching tastes.<br />
+      </p>
+      <p>•<a href="http://www.polymatchmaker.com/">PolyMatchMaker.</a>  This is the premier polyamory-specific dating site, with a fairly active set of forums as well.  However, the site only has about 7,000 subscribers at one time and so it can be hard to find matches outside of urban areas.<br />
+      </p>
+    </blockquote>
+    </div>
+  <div id="footer">
+    <p align="center" class="style4 style6">• <a href="index.html">Home</a> | <a href="whoweare.html">Who we are</a> | <a href="faq.html">FAQ</a> | <a href="Register.html">Register</a> | <a href="currentevent.html">Current Event</a> | <a href="pastevents.html">Past Events</a> | <a href="mailto:info@polyspeeddating.com">Contact</a> |<a href="http://polyspeeddating.com/mailman/listinfo/psd"> Join our Mailing List</a> •</p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>

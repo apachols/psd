@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% csrf_token %}
+{% load util %}
+
+{% block title %}Display Participant{% endblock %}
+
+{% block content %}
+
+<h1 align="center">Your Registration</h1>
+
+
+<p>You are {% if reg.cancelled %}<b>not</b> {% endif %} registered for the event on Monday with the following information:</p>
+
+<h3>Event Details</h3>
+<ul>
+Tuesday, April 26th, 6:00-11:00pm<br>
+at the <a href="http://www.thefriendlytoast.net">The Friendly Toast in Cambridge, MA</a>
+<p>1 Kendall Square, Cambridge, MA.
+<br>
+<p>Check-in starts at 6:00pm. You <em>must</em> be there by 7:00.</p>
+
+
+</ul>
+<h3>Public Name on your Nametag: {{ reg.nickname }} ({{reg.psdid}})</h3>
+<ul>
+
+</ul>
+<h3>Your Registration Summary:</h3>
+<ul>
+<p>You are {{ reg.htmlcode|safe }}</p>
+
+</ul>
+<h3>Payment Status</h3>
+<ul>
+
+
+{% if reg.paid %} You have paid.
+<p>
+If this is in error, please contact us.
+{% else %}
+
+{% if reg.pending %}
+<p>
+ You have not yet paid, but you have made arrangements to pay.
+ {% else %}
+<p>
+  You have not paid and we have no record of any arrangements for you.   If you have made arrangements, but there is no note of that above, then again please email us.
+{% endif %}  
+
+<p>  If you feel you have paid in full and we do not have that noted above, then please email us.
+
+
+{% endif %}
+
+
+{% if reg.cancelled %}
+<h3 align="center">Please note that we think you have told us that you are <b>cancelling</b> your registration.</h3>
+{% endif %}
+
+</ul>
+
+{% if reg.stationary %}
+<h3>Mobility Note</h3>
+<ul>
+<p>We have a note that you would prefer to move from seat to seat as little as possible due to some mobility constraints.  
+</ul>
+{% endif %}
+
+{% if reg.hasNotes %}
+<h3>Misc. Notes</h3>
+<ul>
+<p>{{ reg.notes|safe }}</p>
+{% endif %}
+
+<hr>
+
+<h2 align="center">If there is an error, contact us!  Click <a href="mailto:{{ event.info_email|default:"info@polyspeeddating.com" }}">here</a> to email.</h2>
+
+</ul>
+<p>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/631/trunk/django
+END
+update
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/224/trunk/django/update
+END
+settings_template.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/628/trunk/django/settings_template.py
+END

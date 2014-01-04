@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/630/trunk/django/psd/register
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/630/trunk/django/psd/register/forms.py
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/630/trunk/django/psd/register/admin.py
+END
+table_matcher.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/587/trunk/django/psd/register/table_matcher.py
+END
+matchmaker.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/625/trunk/django/psd/register/matchmaker.py
+END
+psdcheckbox.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/620/trunk/django/psd/register/psdcheckbox.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/140/trunk/django/psd/register/__init__.py
+END
+describe.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/622/trunk/django/psd/register/describe.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/568/trunk/django/psd/register/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/625/trunk/django/psd/register/models.py
+END
+demographics.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/626/trunk/django/psd/register/demographics.py
+END
+decorators.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/532/trunk/django/psd/register/decorators.py
+END

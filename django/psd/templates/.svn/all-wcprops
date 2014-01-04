@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/630/trunk/django/psd/templates
+END
+list_events.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/561/trunk/django/psd/templates/list_events.html
+END
+recess_creator.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/587/trunk/django/psd/templates/recess_creator.html
+END
+user_blurb.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/601/trunk/django/psd/templates/user_blurb.html
+END
+404.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/177/trunk/django/psd/templates/404.html
+END
+email_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/354/trunk/django/psd/templates/email_form.html
+END
+event_manager.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/567/trunk/django/psd/templates/event_manager.html
+END
+schedule_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/339/trunk/django/psd/templates/schedule_form.html
+END
+list_people.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/523/trunk/django/psd/templates/list_people.html
+END
+list_comments.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/626/trunk/django/psd/templates/list_comments.html
+END
+maintenance.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/264/trunk/django/psd/templates/maintenance.html
+END
+feedback.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/324/trunk/django/psd/templates/feedback.html
+END
+no_event_specified.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/553/trunk/django/psd/templates/no_event_specified.html
+END
+subgroup_contact_email.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/592/trunk/django/psd/templates/subgroup_contact_email.html
+END
+show_me_all.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/583/trunk/django/psd/templates/show_me_all.html
+END
+next_sheet_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/558/trunk/django/psd/templates/next_sheet_form.html
+END
+feedback_received.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/326/trunk/django/psd/templates/feedback_received.html
+END
+command_arg_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/547/trunk/django/psd/templates/command_arg_form.html
+END
+post_event_email.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/542/trunk/django/psd/templates/post_event_email.html
+END
+show_me.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/571/trunk/django/psd/templates/show_me.html
+END
+datematrix.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/619/trunk/django/psd/templates/datematrix.html
+END
+potential_matches.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/617/trunk/django/psd/templates/potential_matches.html
+END
+checkin.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/620/trunk/django/psd/templates/checkin.html
+END
+datesheet.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/554/trunk/django/psd/templates/datesheet.html
+END
+event_manager_actions.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/339/trunk/django/psd/templates/event_manager_actions.txt
+END
+walkin_menu.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/575/trunk/django/psd/templates/walkin_menu.html
+END
+list_childcare.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/462/trunk/django/psd/templates/list_childcare.html
+END
+base.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/539/trunk/django/psd/templates/base.html
+END
+prettydatesheet.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/617/trunk/django/psd/templates/prettydatesheet.html
+END
+email_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/287/trunk/django/psd/templates/email_list.html
+END
+matchlist.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/454/trunk/django/psd/templates/matchlist.html
+END
+error.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/269/trunk/django/psd/templates/error.html
+END
+pre_event_email.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/542/trunk/django/psd/templates/pre_event_email.html
+END
+multi_break.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/342/trunk/django/psd/templates/multi_break.html
+END

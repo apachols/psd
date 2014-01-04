@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/479/trunk/django/sites/austin/register
+END
+baseregform.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/479/trunk/django/sites/austin/register/baseregform.html
+END
+registerIndiv.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/479/trunk/django/sites/austin/register/registerIndiv.html
+END
+registerGroup.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/479/trunk/django/sites/austin/register/registerGroup.html
+END

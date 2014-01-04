@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/591/trunk/django/sites/uk/register
+END
+payment.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/591/trunk/django/sites/uk/register/payment.html
+END
+registerIndiv.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/590/trunk/django/sites/uk/register/registerIndiv.html
+END
+registration_note.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/481/trunk/django/sites/uk/register/registration_note.html
+END
+registerGroup.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/590/trunk/django/sites/uk/register/registerGroup.html
+END

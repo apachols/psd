@@ -1,0 +1,18 @@
+{% extends 'admin/base.html' %}
+{% load util %}
+
+{% block title %}
+PSD Schedule Maker
+{% endblock %}
+
+{% block content %}
+
+
+<form action="" method="POST">
+        <table>
+            {{ form.as_table }}
+        </table>
+        <p><input type="submit" value="Start Scheduling"></p>
+    </form>
+
+{% endblock %}

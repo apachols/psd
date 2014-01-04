@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/624/trunk/django/psd/templates/about
+END
+kink.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/364/trunk/django/psd/templates/about/kink.html
+END
+notfound.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/364/trunk/django/psd/templates/about/notfound.html
+END
+groups.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/364/trunk/django/psd/templates/about/groups.html
+END
+intersex.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/364/trunk/django/psd/templates/about/intersex.html
+END
+gender.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/624/trunk/django/psd/templates/about/gender.html
+END
+trans.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/418/trunk/django/psd/templates/about/trans.html
+END

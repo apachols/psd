@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/548/trunk/django/Rs
+END
+sqliteLoader.R
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/528/trunk/django/Rs/sqliteLoader.R
+END
+polyDataReadSql.R
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/220/trunk/django/Rs/polyDataReadSql.R
+END
+allPastData.R
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/345/trunk/django/Rs/allPastData.R
+END
+tableMatcher.R
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/345/trunk/django/Rs/tableMatcher.R
+END
+test_polymatch.R
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/343/trunk/django/Rs/test_polymatch.R
+END
+polyMatch.R
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/548/trunk/django/Rs/polyMatch.R
+END
+setup.R
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/343/trunk/django/Rs/setup.R
+END
+test_runthrough.R
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/424/trunk/django/Rs/test_runthrough.R
+END
+demographics.R
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/424/trunk/django/Rs/demographics.R
+END

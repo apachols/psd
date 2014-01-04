@@ -1,0 +1,60 @@
+BEGIN EXCLUSIVE;
+
+ALTER TABLE register_regrecord ADD COLUMN "paid" BOOLEAN;
+ALTER TABLE register_regrecord ADD COLUMN "cancelled" BOOLEAN;
+ALTER TABLE register_regrecord ADD COLUMN "pending" BOOLEAN;
+ALTER TABLE register_regrecord ADD COLUMN "here" BOOLEAN;
+ALTER TABLE register_regrecord ADD COLUMN "stationary" BOOLEAN;
+ALTER TABLE register_regrecord ADD COLUMN "is_group" BOOLEAN;
+ALTER TABLE register_regrecord ADD COLUMN "notes" TEXT;
+ALTER TABLE register_regrecord ADD COLUMN "geek_code" TEXT;
+ALTER TABLE register_regrecord ADD COLUMN "matches" INTEGER;
+ALTER TABLE register_regrecord ADD COLUMN "oneway" INTEGER;
+
+UPDATE register_regrecord SET paid = 0;
+UPDATE register_regrecord SET cancelled = 0;
+UPDATE register_regrecord SET pending = 0;
+UPDATE register_regrecord SET here = 0;
+UPDATE register_regrecord SET stationary = 0;
+UPDATE register_regrecord SET is_group = 0;
+UPDATE register_regrecord SET notes = "";
+UPDATE register_regrecord SET geek_code = "";
+UPDATE register_regrecord SET matches = 0;
+UPDATE register_regrecord SET oneway = 0;
+
+ALTER TABLE register_regrecord RENAME TO table_two;
+
+CREATE TABLE "register_regrecord" (
+    "id" integer NOT NULL PRIMARY KEY,
+    "nickname" varchar(30) NOT NULL,
+    "email" varchar(75) NOT NULL,
+    "add_to_mailings" bool NOT NULL,
+    "seek_groups" bool NOT NULL,
+    "groups_match_all" bool NOT NULL,
+    "friend_dates" bool NOT NULL,
+    "referred_by" varchar(30) NOT NULL,
+    "pals" text NOT NULL,
+    "location" varchar(30) NOT NULL,
+    "wants_childcare" bool NOT NULL,
+    "children" text NOT NULL,
+    "comments" text NOT NULL,
+    "event" varchar(10) NOT NULL,
+    "psdid" varchar(6) NOT NULL,
+    "paid" bool NOT NULL,
+    "cancelled" bool NOT NULL,
+    "pending" bool NOT NULL,
+    "here" bool NOT NULL,
+    "stationary" bool NOT NULL,
+    "is_group" bool NOT NULL,
+    "notes" text NOT NULL,
+    "geek_code" text NOT NULL,
+    "matches" integer NOT NULL,
+    "oneway" integer NOT NULL
+)
+;
+
+INSERT INTO register_regrecord SELECT * FROM table_two;
+
+DROP TABLE table_two;
+
+COMMIT;

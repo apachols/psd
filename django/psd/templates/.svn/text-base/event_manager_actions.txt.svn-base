@@ -1,0 +1,4 @@
+
+{% for act in actions %}
+<br> <a href="{% url psd.register.views.dashboard.event_manager event_name=event_name, action=act.action %}">{{act.action_description}}</a>
+{% endfor %}

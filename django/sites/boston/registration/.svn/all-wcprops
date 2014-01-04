@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/405/trunk/django/sites/boston/registration
+END
+user_not_found.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/405/trunk/django/sites/boston/registration/user_not_found.html
+END
+password_reset_email.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/402/trunk/django/sites/boston/registration/password_reset_email.html
+END

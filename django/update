@@ -1,0 +1,3 @@
+scp psd@twilite.org:webapp/mydb .
+R -f Rs/printUpdate.R
+

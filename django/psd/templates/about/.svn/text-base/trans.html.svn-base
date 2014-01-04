@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% load util %}
+
+{% block title %}An Open Letter About Sex/Gender Matching and Trans Identification{% endblock %}
+
+{% block header%}
+An Open Letter About Sex/Gender Matching and Trans Identification
+{% endblock %}
+
+{% block content %}
+
+
+<p>
+Recently Poly Speed Dating has been criticized for not having cis (gender/sexual) categories in its gender matching system to match the trans (gender/sexual) categories.  This statement acknowledges and responds to these criticisms.
+<p>
+From its inception, Poly Speed Dating has had a solid number of trans attendees.  We are committed to creating a trans-inclusive space, and the concerns of trans people have been central to the evolution of our gender matching system.  We are currently on our third revision of the gender matching system, and the second and third revisions were implemented with significant input from our trans attendees.
+<p>
+
+First, it is important to understand that we encourage trans people to register for the unmarked gender categories ("men" or "women"), and we have trans attendees <i>who actually do so</i>.  People tend to look at our current matching system and assume that it represents cis and trans categories, only the cis categories are not labeled as such.  This is not true.  The two different sex/gender categories are actually an unmarked category ("men" or "women") which contains a mix of cis and trans people, and a marked trans category ("trans men" or "trans women") for trans people who wish to filter their dates by trans-friendliness.
+<p>
+
+It has been suggested that we created the trans category in order to coddle transphobic daters.  This is not true: we have no interest in supporting transphobia.  Indeed, as the previous paragraph points out, currently there is no way to register for Poly Speed Dating such that one is guaranteed only dates with cis people.  We get occasional transphobic complaints as a result, which we have ignored.
+<p>
+
+In June of 2011 an individual complained that our lack of cis categories in the gender matching system was privileging cisgender(/sexual) status by creating a situation where cis people would register for the unmarked normative gender categories ("men" or "women").  We thought this was a fair criticism, and set about getting input from trans and genderqueer people in order to see how we could change the system to not reinforce privilege.  We set up a working group which investigated options in September and October.  It came to the conclusion that we should keep the four male/female categories ("men", "women", "trans men", and "trans women") for the reasons discussed below, but to move away from asking for self-identification at all.
+<p>
+
+Generally speaking, of the options examined, only three seemed promising.  None of these are perfect.  They are:
+<ol>
+<li> To not have trans categories.  <br>
+We received input from a number of trans people that this would be very bad for their dating experience as they preferred to identify as trans explicitly, and/or found that a trans category allowed them to only go on dates with people truly interested in dating trans people.
+</p>
+</li>
+<li> Have unmarked categories along with marked trans categories. (The current solution.)<br>
+As had been pointed out to us, this conceptually privileges cis genders/sexes over trans ones. However, because the unmarked category is inclusive and (appropriately) some trans people simply check it off and not anything else, trans people are going on dates in the unmarked categories which arguably undermines the "cisgender = normative gender" rule of culture.  Still, having an unmarked category and then a trans category is visually jarring and tends to give the impression that the unmarked category represents a normative cis gender/sex.
+</p>
+</li>
+<li>Add cis categories alongside the trans and unmarked categories. <br> 
+We had trans people object to the idea of including a cis category.  They felt it would create a first-class gender/sex category that they did not have access to, which is upsetting and othering for people who have spent a lot of effort gaining access to their gender/sex.  Adding a cis category could also effectively out trans people who formerly could not be distinguished from cis people in the system, by adding a category that they would not feel comfortable registering in.  Finally, it was pointed out to us that creating a cis category would create a situation where someone could purposefully sign up to only date cis people, thus allowing a coddling of transphobes that has not existed up until this point.
+<p>
+ Also, getting rid of the unmarked categories was not really an option, as we had input from a number of people who felt they did not fit cleanly into the cis or trans categories, or who wanted to date without reference to their trans status.  
+</p>
+</li>
+</ol>
+
+In short, we have not yet found an unproblematic situation.  Given these three options, we chose the second as the least of three evils, as it had generated the least complaints.  Also, the second option is the only one which does not create pragmatic issues in the actual dating itself.
+<p>
+However, to address the jarring unmarked + trans combination, we changed the form so that people, instead of identifying "as" a sex/gender in order to register, specify which sexes/genders they want their dates to be open to dating.  It was our hope that this move away from self-identification would reduce people's negative reactions to a system that necessarily involves marking checkboxes and so is always imperfect.
+<p>
+We have not heard of any other dating system that has attempted this level of accommodation towards trans, genderqueer, and gender-variant people.  As such, we are in largely untracked territory.  As can be seen from the above options, we end up in catch-22 situations produced by the realities of dating and self-representation in a highly transphobic culture.  We ask for your patience and understanding as we try to settle on the best system possible.  We are open to further revisions of the system, and we would like your input towards that end.  Please send any comments on the above discussion to info@polyspeeddating.com.
+
+
+{% endblock %}

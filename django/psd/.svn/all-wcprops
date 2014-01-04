@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/631/trunk/django/psd
+END
+bostonize.sh
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/261/trunk/django/psd/bostonize.sh
+END
+update.sqlite3
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/140/trunk/django/psd/update.sqlite3
+END
+psdmanage.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/631/trunk/django/psd/psdmanage.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/140/trunk/django/psd/__init__.py
+END
+polymatch.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/617/trunk/django/psd/polymatch.py
+END
+RcodeHooks.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/596/trunk/django/psd/RcodeHooks.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/625/trunk/django/psd/urls.py
+END
+loader.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/617/trunk/django/psd/loader.py
+END
+shared.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/443/trunk/django/psd/shared.py
+END
+debugtools.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/543/trunk/django/psd/debugtools.py
+END
+manage.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/140/trunk/django/psd/manage.py
+END
+date_scheduler.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/588/trunk/django/psd/date_scheduler.py
+END

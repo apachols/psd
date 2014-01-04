@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}
+Poly Speed Dating Login
+{% endblock %}
+{% block header %}Login{% endblock %}
+
+{% block content %}
+
+{% if form.errors %}
+<p><b>Error: Your Poly Speed Dating ID and password didn't match.</a> Please try again.</p>
+{% endif %}
+
+
+
+
+<p>Log in using with the ID and password we sent after you registered--the ID should be something like "AB123X".    <b>User names are case sensitive (and usually uppercase)!</b></p>
+
+
+<form method="post" action="{% url django.contrib.auth.views.login %}">
+{% csrf_token %}
+<table>
+<tr>
+    <td>{{ form.username.label_tag }}</td>
+    <td>{{ form.username }}</td>
+</tr>
+<tr>
+    <td>{{ form.password.label_tag }}</td>
+    <td>{{ form.password }}</td>
+</tr>
+</table>
+
+<input type="submit" value="login" />
+<input type="hidden" name="next" value="{{ next }}" />
+</form>
+
+<p>
+If you have forgotten your ID or your password, you can reset your password
+by going to the <a href="{% url password-reset %}">Password Reset Page</a> and
+handing over your email address.  The system will then email you your username
+and a link to reset your password.
+
+<p>
+
+PLEASE do this rather than making a new registration or emailing the staff if
+at all possible.  The former will mean you will possibly get dates with people
+you have seen before, the latter will negatively impact an already overworked
+technical support division.
+
+{% endblock %}
+

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/630/trunk/django/psd/templates/admin/register/event
+END
+change_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/630/trunk/django/psd/templates/admin/register/event/change_form.html
+END

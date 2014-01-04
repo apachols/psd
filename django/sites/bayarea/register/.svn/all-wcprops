@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/624/trunk/django/sites/bayarea/register
+END
+baseregform_opensf1.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/571/trunk/django/sites/bayarea/register/baseregform_opensf1.html
+END
+payment_opensf1.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/571/trunk/django/sites/bayarea/register/payment_opensf1.html
+END
+registerIndiv_opensf1.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/579/trunk/django/sites/bayarea/register/registerIndiv_opensf1.html
+END
+registerGroup_opensf1.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/579/trunk/django/sites/bayarea/register/registerGroup_opensf1.html
+END
+registerIndiv_uptown2.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/624/trunk/django/sites/bayarea/register/registerIndiv_uptown2.html
+END
+registerGroup_uptown2.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/624/trunk/django/sites/bayarea/register/registerGroup_uptown2.html
+END

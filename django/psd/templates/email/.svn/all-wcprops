@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/584/trunk/django/psd/templates/email
+END
+email_reminder.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/584/trunk/django/psd/templates/email/email_reminder.txt
+END
+email_nopay.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/523/trunk/django/psd/templates/email/email_nopay.txt
+END
+pre_event_email.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/523/trunk/django/psd/templates/email/pre_event_email.txt
+END
+registration_email.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/583/trunk/django/psd/templates/email/registration_email.txt
+END
+your_matches.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/558/trunk/django/psd/templates/email/your_matches.txt
+END
+payment_email.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/523/trunk/django/psd/templates/email/payment_email.txt
+END
+default_match_text.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/558/trunk/django/psd/templates/email/default_match_text.txt
+END
+feedback.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/354/trunk/django/psd/templates/email/feedback.txt
+END
+initialize_user_email.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/583/trunk/django/psd/templates/email/initialize_user_email.txt
+END

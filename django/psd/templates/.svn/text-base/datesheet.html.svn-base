@@ -1,0 +1,119 @@
+{% extends 'event_manager.html' %}
+{% load i18n util admin_modify adminmedia %}
+
+{% block title %}
+PSD Date Entry for {{rr.psdid}}
+{% endblock %}
+
+{% block breadcrumbs %}{% if not is_popup %}
+<div class="breadcrumbs">
+
+<a href="../../admin">{% trans "Home" %}</a>
+ &rsaquo;
+<a href="{%url edit-event event_name=event_name %}">Edit</a>
+ &rsaquo;
+<a href="{%url psd.register.views.dashboard.event_manager event_name=event_name, action=main %}">Manage</a>
+ &rsaquo;
+<a href="{%url next-date-sheet event_name=event_name %}">Date Entry</a>
+
+</div>
+{% endif %}{% endblock %}
+
+
+
+{% block content %}
+
+
+<h2>Data Entry Sheet for {{ rr.psdid }} at {{ event }}</h2>
+
+{% if not cformset.is_valid %}
+<!--<h3>Errors</h3>
+
+{% for field in cformset.forms.0 %}
+  {% if field.errors %}
+    <strong>{{ field.label }} #1:</strong> {{ field.errors }}
+  {% endif %}
+{% endfor %}
+
+{% for field in cformset.forms.1 %}
+  {% if field.errors %}
+    <strong>{{ field.label }} #2:</strong> {{ field.errors }}
+  {% endif %}
+{% endfor %}
+
+{% for field in cformset.forms.2 %}
+  {% if field.errors %}
+    <strong>{{ field.label }} #3:</strong> {{ field.errors }}
+  {% endif %}
+{% endfor %}
+-->
+{% endif %}
+
+<form name="datesheet" method="post" action="">
+
+<ul>
+
+<table>
+<th>
+<td>PSDID</td>
+<td>Friend?</td>
+<td>Table_Name</td>
+<td>Checked Yes</td>
+
+</th>
+
+
+{% for d in dates %}
+<tr bgcolor={% cycle "#AAAAAA" "#AAAA00" %}>
+
+<td>{{ d.round }}</td>
+<td align="right">{{ d.other_psdid }} </td>
+<td align="left">
+{% if d.friend_date %}
+(F)
+{%endif%}
+</td>
+
+<td align="right"> 
+{{ d.table }}
+</td>
+
+<td align="center">
+<input name="yes" type="checkbox" value="{{ d.other_psdid }}" {% if d.said_yes %}CHECKED {%endif%}>
+</td>
+
+</tr>
+
+{% endfor %}
+
+
+
+
+</table>
+</ul>
+
+<h2>Cruises:</h2>
+<table>
+<tr>
+{{ cformset.management_form }}
+{% for cform in cformset.forms %}
+
+<td>
+<h3>#{{ forloop.counter }}
+
+<td>
+{{ cform.other_psdid }}
+
+
+
+{% endfor %}
+</tr>
+</table>
+
+<input type="submit" value="submit matching data"></td>
+</form>
+
+{% endblock %}
+
+
+

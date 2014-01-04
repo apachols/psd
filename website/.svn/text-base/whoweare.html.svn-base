@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>PSD: Who We Are</title>
+<style type="text/css">
+<!--
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 75em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColElsCtrHdr #header {
+	background: #DDDDDD;
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	background-color: #F8F8F8;
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	font-size: xx-large;
+}
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
+}
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#DDDDDD;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+-->
+</style>
+<link href="menu3/styles.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style3 {color: #CC0000}
+a:link {
+	color: #CC0000;
+}
+a:visited {
+	color: #660000;
+}
+a:hover {
+	color: #FF0000;
+}
+body,td,th {
+	font-size: 12px;
+}
+-->
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16935149-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+
+    <div align="left">
+      <!-- end #header -->
+      <img src="psd_title.png" alt="Poly Speed Dating" width="820" height="135" /></div>
+  </div>
+  <div id="tabs">
+  <ul>
+    <li><a href="index.html"><span>Home</span></a></li>
+    <li><a href="whoweare.html"><span>Who we Are</span></a></li>
+    <li><a href="faq.html"><span>FAQ</span></a></li>
+    <li><a href="Register.html"><span>Register<br /></span></a></li>
+    <li><a href="pastevents.html"><span>Past Events!</span></a></li>
+    <li><a href="mailto:info@polyspeeddating.com"><span>Contact</span></a></li>
+    <li><a href="/reg/accounts/login/"><span>Log-In</span></a></li>
+    <li><a href="http://polyspeeddating.com/mailman/listinfo/psd"><span>Join our Mailing List</span></a></li>
+  </ul>
+</div>
+  <div id="mainContent">
+    <p>&nbsp;</p>
+    <h1>PSD Team</h1>
+    <p><br />
+    We are a group of poly programers, organizers, statistics nerds, and helper monkeys living in the San Francisco Bay Area. While many of use are poly and life saturated we had to try such a crazy idea.</p>
+    <h2>Luke<img src="Luke_photo.jpg" alt="Luke" width="220" height="270" align="right" /></h2>
+    <p> The idea just came to him in a dream. When he told folks, they got excited. How could he not move forward? Luke, an ex-high-school teacher, is now a grad student at UC Berkeley. At various points in his life, he has gotten involved in various social networking experiments 'cause he finds them fun and cool. He has a wife, a lover, and two kids. Long walks on the beach kind of wear him out. He likes lying in the sand instead. </p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h2>Pepper</h2>
+    <p><img src="pep_photo.jpg" alt="Pepper Mint" width="220" height="270" border="4" align="left" />Pepper is a local activist in the bi, poly, gender, and you-name-it scenes. He has been so for years. He has been suckered into helping with this as well. While he claims to be polysaturated, he has poor impulse control. So don't give up hope just yet. </p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p class="oneColElsCtrHdr">&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h2>&nbsp;</h2>
+    <h2>Jen<img src="jen_photo.jpg" alt="Jen" width="220" height="270" align="right" /></h2>
+    <p>Jen has taught several workshops in the bay area regarding issues of polyamory. Happily, her once-again-a-student status makes it possible to lay claim on some hours of her time for help organizing this event as well. It should be noted that, possibly due to some latent gene shared with hummingbirds and other pollinators, she seems to date a disproportionate number of folks with brightly colored hair. </p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h2>Debby</h2>
+    <p>Debby is very excited about the entire poly speed dating concept, but not so good at speed dating herself, despite being bi and kinky. To compensate, she is helping with the event with the secret agenda of meeting people while not on dates with them. When not being naughty, she can often be found climbing up rock faces or seeking out unusual food items.</p>
+    <h2>&nbsp;</h2>
+    <h2>Helpers</h2>
+    <p>A big thanks to our many helper monkeys who have assisted the event. We promise the wing requisition form has been submitted to W.W. West and we will let you know as soon as we hear anything.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </div>
+  <div id="footer">
+    <p align="center" class="style4">• <a href="index.html">Home</a> | <a href="whoweare.html">Who we are</a> | <a href="faq.html">FAQ</a> | <a href="Register.html">Register</a> | <a href="pastevents.html">Past Events</a> | <a href="mailto:info@polyspeeddating.com">Contact</a> |<a href="http://polyspeeddating.com/mailman/listinfo/psd"> Join our Mailing List</a> •</p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>

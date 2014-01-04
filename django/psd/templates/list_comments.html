@@ -1,0 +1,46 @@
+{% extends 'event_manager.html' %}
+
+{% load util %}
+
+{% block title %}Event Manager for {{ event_name }}{% endblock %}
+
+
+
+<h1 align="center">
+{% block header %}
+Event Manager for {{ event_name }}
+{% endblock %}
+</h1>
+
+{% block content %}
+
+<table>
+<tr>
+<td>#</td><td>ID</td><td>Comments</td><td>Referral</td><td>Notes</td>
+</tr>
+
+{% for r in regs %}
+<tr>
+<td>{{forloop.counter}}</td>
+<td><a href="{% url view-user event_name=event_name psdid=r.psdid %}">{{ r.psdid }}</a>
+<a href="{% url edit-user event_name=event_name psdid=r.psdid %}">(Edit)</a></li>
+</td>
+
+<td>{{r.comments}}</td>
+<td>{{r.referred_by}}</td>
+<td>{{r.notes}}</td>
+</td>
+
+{% endfor %}
+
+</table>
+
+<hr>
+
+{% for act in actions %}
+<br> <a href="{% url psd.register.views.dashboard.event_manager event_name=event_name, action=act.action %}">{{act.action_description}}</a>
+{% endfor %}
+
+<hr>
+
+{% endblock %}

@@ -1,0 +1,239 @@
+{% extends 'base.html' %}
+
+{% load util %}
+
+{% block title %}About Gender with Poly Speed Dating{% endblock %}
+
+{% block header%}<h2>About Gender with Poly Speed Dating</h2>{% endblock %}
+
+{% block content %}
+
+
+
+<p> It is very important to us that we promote inclusive events.
+There are myriad methods of gender and sex identification, and there
+are many issues regarding how people date and relate across and among
+these lines.  We have therefore tried to avoid asking for
+self-identification altogether!
+
+<h3>Overview</h3>
+
+You have to answer a <b>preference</b> question on whom you are
+looking for, and a <b>minimal requirements</b> question about whom
+your dates should be looking for.
+
+<p>Usually, what you want your dates to be looking for is... you! So,
+for example, men will click the box that says their dates should
+be looking for men. You can require your dates to be
+okay with additional gender categories as well.
+
+We gauge whether others would be interested in you based on your
+preferences.  When this works out both ways, we have a match.
+
+
+<p>
+On the form, there are two columns of checkboxes: what you are looking
+for, and what you want your matches to be looking for in terms of
+gender, sex, or presentation.
+<p>
+
+The first column is straightforward: check off what you want.  
+<p>
+
+For the second column, typically
+people will check off their own identification since they
+want their matches to be open to who they are.  So if a dater
+identifies as a man, they would probably check off "men" and/or "trans
+men" in the second column.
+<!--  They may also check off other boxes, such
+as "androgynous."-->
+
+<p>
+We phrase this question in a roundabout manner because we want to get
+ away from questions of personal identity.  We instead allow people to
+ say what is important to them in terms of what their matches are open
+ to.  Also, getting away from identity opens up the possibility of
+ neat dating tricks such as one described below in the examples
+ section.
+<p>
+
+<!--<b>The rule used by the speed dating algorithm is: for a match to happen, everything in the other person's
+ second column must be included in your first column (and your second column must include their first column too).</b>  
+I.e., you must be open to every category that they request, and vice versa.
+-->
+
+The above can be summarized by the following two rules: </p>
+    <b><p align="center"><em>You can only be matched with people who are looking
+      for all the things that you check off in the second column.</em></p></b>
+   and<b>
+    <p align="center"><em>You will never be matched with people who have checked off a category in the second column that you are not looking for.</em></p>
+</b>
+<p>
+
+So if someone marked off "women" and "genderqueer..." in their second
+column, and you marked off "women," "trans women," and
+"genderqueer..."  in your first column, then they could be a match for
+you.  If you had only marked off "woman," then they would not be a
+match for you because they want people open to genderqueer people and
+you did not indicate you were open to such matches.
+
+<p>
+No problem, right?  One final note:
+<B> <p align="center"><em>Don't say you are open to something unless
+      you actually are!</em></p></B>  It is not fun for people to go
+      on dates with people clearly not interested in them a priori.
+ 
+<p>
+
+
+<h3>Stating Preferences (The Double Check-Box)</h3>
+
+Each entry in the first column has two checkboxes.  If you check off either one
+of the checkboxes, it means that you are open to dating someone of
+that gender or sex.  If you check off both checkboxes,
+it means that you <i>prefer</i> to date someone in that category.  The
+matching algorithm will score those matches higher and you will be
+more likely to get them.  This can be used to set up situations with a
+preferred set of genders and a fallback set of genders.  See the
+example section below for some situations where this might be helpful.
+
+
+<h3>Trans Sexes/Genders and Matching</h3>
+
+There has been a lot of debat as to whether "trans" should have its
+own checkbox.  Based on feedback from many trans people, we have
+decided to have such a box.  It is entirely optional whether you use
+it or not.  We encourage trans folks to do which ever of the following
+feels most comfortable and true:
+<ul>
+<li>Check off an unmarked category ("men" and/or "women") only</li>
+<li>Check off a trans category ("trans men" and/or "trans women") only</li>
+<li>Check off both the marked and unmarked categories</li>
+<li>Anything else that they find apporpriate</li>
+</ul>
+
+We have talked to some trans people who want to filter out anyone not
+okay with their trans status, and so enjoy having the marked
+categories as well as the unmarked categories.  But at the same time
+we have talked to other trans people who prefer to date simply as
+"men" or "women" as they feel that they should not have to mark
+themselves as trans in any particular way.  This is also fine.  Note
+that by checking off both categories, a trans man, say, could not be
+"targeted" since a potential dater would have to indicate <i>both</i>
+being open to trans men and men.  To be clear: we have these boxes
+because many trans people have expressed a desire to have them.  It is
+a tool to help trans people navigate speed dating in a way that feels
+comfortable, safe, and worthwhile. 
+<p>
+Please read our more complete discussion of why we made these choices
+in the design of the matching system <a href="{% url about-page
+what="trans"%}">here</a>.
+
+
+<h3>Intersex</h3>
+<p> We currently do not have an &quot;intersex&quot; gender category.
+      Reasons for that are discussed <a href="{% url about-page
+      what="intersex"%}">here</a>.  In short, intersexed people may
+      identitfy as one or multiple genders, and we hope they will fill
+      their forms out accordingly.  We feel that the important thing
+      to focus on for Poly Speed Dating purposes is what gender
+      identity and presentations people are open to, which is why we
+      have not made Intersexed a category choice. </p>
+
+
+<h3>The presentation question</h3>
+
+We have added another gender-like question which includes
+"presentation-like" questions such as butch/femme/andro.  Currently
+this is a preference-only question, allowing you to signal what you
+want a bit better.  But we do not do hard matching on this question,
+meaning we may schedule you for dates who are not looking for what you
+indicate here.  We can only do so much!
+
+
+<h3>Strategies and Examples</h3>
+
+In general, checking off more categories in the first column gets a person more dates, and checking off fewer categories in
+ the second column gets a person more dates. 
+
+<p>
+We encourage folks to check off anything they are okay with in the
+first column, since one's first column picks must include all of a
+potential match's second column picks.  So if person wants to date any
+sort of man, then they should not just check off "men" and "trans
+men," because that would exclude men who check off the other
+categories as well.  Thus they might also check off  "genderqueer" and possibly "none of the above"  in the first column
+to catch guys who have put any of those in their second column.  Of
+course, this means they might get people who only identify as
+genderqueer.  See how this gets tricky?
+
+
+<p>
+Here are some examples of trickier uses of the gender matching system:
+
+<p>
+1) <b>Man looking for bi men</b>.  Check off "men" and "trans men" in the first column (and probably some other categories), and "men" and "women" in the second column.
+<p>
+
+2) <b>Femme woman preferring butch women, but open to dating all women</b>.  Check off "women" and "trans women" in the first column with a single checkbox, and "butch" in the second question.  Check off "women" and "femme" in the second column.
+<p>
+
+<!--3) <b>Trans woman looking for butch women or trans men</b>.  In the
+first column, check off "women" with a single checkbox and "butch" and
+"trans men" with two checkboxes.  In the second column, check off
+"women" or "trans women" as desired.  Note that it is still possible
+to get non-butch women, but femme- and andro-identified women would be
+excluded.  Also note that you could end up with butch trans men.
+<p>
+
+4) <b>Man looking for butch women and femme men</b>.  Well, this isn't actually possible, as checking off "butch," "femme," "men," and "women" would result in getting butch men and femme women as well.  One sub-optimal solution would be to pick one or the other for a particular event and then pick the other for the next event.  At some point in the future we hope to be able to express this level of complexity.  But you have to admit things are getting out of hand.
+-->
+
+
+<h3> Q: What happens if I check off lots of boxes for the first question?</h3>
+
+ A: The more categories you check off, the more types of people you
+ meet. Even if you check off all ten rows, most of your dates
+ will only fit one or two categories.
+
+<h3>
+ Q: Why doesn't the second column just say "check off what you are"?
+</h3>
+ A: It used to, and that is still what most people do. This
+ wording is an expansion of that: you may want dates who are
+ genderqueer-friendly whether or not you identify that way. You may want
+ dates who are both man-friendly and woman-friendly (i.e. "bisexual")
+ even if you yourself aren't both a man and a woman.
+
+
+<!--
+    <h2>Generic Man Hunt</h2>
+    If you are looking for men, and check off &quot;Men&quot; and nothing else, then you will not be matched with someone who identifies as both a man and a woman, nor would you be matched with someone who identifies as either a transgendered or genderqueer man.
+    <h2>Outside of Gender</h2>
+    If you do not believe in &quot;Man&quot; and &quot;Woman&quot; as gender, and thus select
+Genderqueer, and nothing else, as your identified gender, then you
+will match anyone who has checked off &quot;genderqueer&quot; for who they are
+looking for, regardless of what other boxes they checked off.  Of
+course, if you also tell us you are only looking for men, then you will only get men
+who meet this criterion.
+<h2>Bois</h2>
+A Boi might identify as a woman and a genderqueer.  They would
+probably say they are only looking for women.  They would then only
+get women who have checked off at least the woman and the genderqueer
+boxes.
+<h2>Female to Male Transsexual</h2>
+You might select &quot;Man&quot; and &quot;Trans Man.&quot;  You might also select
+&quot;GenderQueer&quot; if you wanted to indicate a general fluidity with
+gender, or wanted to date people who tended to enjoy gender as
+something more open or vague.  You might only select &quot;Trans Man&quot; and
+not &quot;Man&quot; if you felt there were people (who you wanted to date) that would date Trans Men but
+not Biological Men (and indeed, there are such people).
+<p> Or, if you felt that you were simply a man, you might select just
+  &quot;Man.&quot;  The risk here is being matched with people who were not so
+  tolerant, which would be a waste of your time.  You might then also
+  check &quot;GenderQueer&quot; as a filter. </p>
+<p>&nbsp;</p>
+-->
+
+
+{% endblock %}

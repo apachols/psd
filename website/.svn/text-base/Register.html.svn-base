@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>PSD: Registration</title>
+<style type="text/css">
+<!--
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 75em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColElsCtrHdr #header {
+	background: #DDDDDD;
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	background-color: #F8F8F8;
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	font-size: xx-large;
+}
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
+}
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#DDDDDD;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+-->
+</style>
+<link href="menu3/styles.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style3 {color: #CC0000}
+a:link {
+	color: #CC0000;
+}
+a:visited {
+	color: #660000;
+}
+a:hover {
+	color: #FF0000;
+}
+body,td,th {
+	font-size: 12px;
+}
+-->
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16935149-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+
+    <div align="left">
+      <!-- end #header -->
+      <img src="psd_title.png" alt="Poly Speed Dating" width="820" height="135" /></div>
+  </div>
+  <div id="tabs">
+  <ul>
+    <li><a href="index.html"><span>Home</span></a></li>
+    <li><a href="whoweare.html"><span>Who we Are</span></a></li>
+    <li><a href="faq.html"><span>FAQ</span></a></li>
+    <li><a href="Register.html"><span>Register<br /></span></a></li>
+    <li><a href="pastevents.html"><span>Past Events!</span></a></li>
+    <li><a href="mailto:info@polyspeeddating.com"><span>Contact</span></a></li>
+    <li><a href="/reg/accounts/login/"><span>Log-In</span></a></li>
+    <li><a href="http://polyspeeddating.com/mailman/listinfo/psd"><span>Join our Mailing List</span></a></li>
+  </ul>
+</div>
+  <div id="mainContent">
+    <p>&nbsp;</p>
+    <h2 align="center">REGISTER NOW</h2>
+    <p>Registration options (click on the one for you):</p>
+    <blockquote>
+      <p><a href="reg/accounts/login">Returning Dater</a> - you have dated before and want to date again. </p>
+      <p><a href="reg/individual/queer1">Individual</a> - you may or may
+        not have relationships at the moment, but you want to look for more of
+        them right now</p>
+      <p><a href="reg/group/queer1">Group</a> - You all are an existing
+        relationship, and are looking for someone(s) together.</p>
+    </blockquote>
+    <h3>Event Details</h3>
+    <ul>
+        <p>Thursday, December 01, 2011 from 6-10p.m.
+        at the <a href="http://www.sfcenter.org/">LGBT Center</a> <br />
+        1800 Market Street - San Francisco, CA 94102 <br />
+        Many MUNI metro lines, the F streetcar, and many bus lines all run within 1 block of the Center. Also, you can take BART to SF Civic Center, then transfer to Muni Metro or F lines. <br />
+        Food will be provided (including vegetarian and vegan options). <br />
+        This is a 18+ event. <br />
+        Pre-registration price: $12.00 per person, mainly to cover food and space costs. <br />
+        Door price: $20.00. <br />
+        No person turned away for lack of funds--please contact us!    <br />
+        Note: there is childcare if you need it. </p>
+      <p>Check-in starts at 6p.m.
+    You <em>must</em> be there by 7p.m.</p>
+    </ul>
+    <b align="Center">We will return to our all-inclusive model with an event in early 2012.</b>
+    <h2>&nbsp;</h2>
+    <blockquote>&nbsp;</blockquote>
+  </div>
+  <div id="footer">
+    <p align="center" class="style4">• <a href="index.html">Home</a> | <a href="whoweare.html">Who we are</a> | <a href="faq.html">FAQ</a> | <a href="Register.html">Register</a> | <a href="pastevents.html">Past Events</a> | <a href="mailto:info@polyspeeddating.com">Contact</a> |<a href="http://polyspeeddating.com/mailman/listinfo/psd"> Join our Mailing List</a> •</p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>

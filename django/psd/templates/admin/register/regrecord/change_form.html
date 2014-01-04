@@ -1,0 +1,32 @@
+{% extends "admin/change_form.html" %}
+{% load util %}
+{% load i18n %}
+{% block object-tools %}
+{% if change %}{% if not is_popup %}
+  <ul class="object-tools">
+    <li><a href="{%url psd.register.views.dashboard.event_manager event_name=original.event, action=main %}">Manage</a></li>
+    <li><a href="../../person/?regrecord={{ object_id }}">People</a></li>
+    <li><a href="../../regrecord/?psdid={{ original.psdid }}">Other RegRecords</a></li>
+    <li><a href="{% url admin-account-view psdid=original.psdid %}">Profile</a></li>
+    <li><a href="{% url view-user event_name=original.event psdid=original.psdid %}">View</a></li>
+    <li><a href="{% url admin-break-matches event_name=original.event, psdid=original.psdid %}">Break</a></li>
+    <li><a href="{% url psd.register.views.dashboard.potential_matches event_name=original.event, psdid=original.psdid %}">Potentials</a></li>
+    <li><a href="{% url psd.register.views.dashboard.date_sheet event_name=original.event, psdid=original.psdid %}">Date Sheet</a></li>
+    <li><a href="{% url update-reg event_name=original.event, psdid=original.psdid %}">Update</a></li>    
+    <li><a href="history/" class="historylink">{% trans "History" %}</a></li>
+  </ul>
+{% endif %}{% endif %}
+{% endblock %}
+
+{% block form_top %}
+<em>{{ original.psdid }}</em>: {{ original.htmlcode|safe }}
+{% endblock %}
+
+{% block after_field_sets %}
+Real id in database: {{ object_id }}
+<p>
+{% if original.notes|paypalrefund %}
+Link to paypal: '<a href="{{ original.notes|paypalrefund  }}" target="_blank">{{ original.notes|paypalrefund  }}</a>' (maybe)
+{% endif %}
+
+{% endblock %}
